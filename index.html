@@ -93,13 +93,16 @@
                         <Cabecalho />
                         <Menu />
                         <div class="principal">
+                        <div class = "caixa">     
                             <h3>Cadastro</h3>
+                            
                             <form onSubmit={this.mySubmitHandler}>
-                                
+                           
                                 <div class="formulario"><input type="email" name="email" placeholder="Insira seu email" onChange={this.myChangeHandler} /></div>
                                 <div class="formulario"><input type="password" name="password" placeholder="Insira sua senha" /></div>
                                 <div class="formulario"><input type="submit" value="Cadastrar" /></div>
                             </form>
+                        </div>
                             <div class="cadastro">
                                 {header}  
                                 {email}                              
